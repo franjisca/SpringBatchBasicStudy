@@ -1,0 +1,16 @@
+spring:
+  batch:
+    job:
+      name: ${job.name:fileReadWriteJob}
+      enabled: true
+    jdbc:
+      initialize-schema: always
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/batch_study?serverTimezone=Asia/Seoul
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: cos
+    password: cos1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
