@@ -1,4 +1,4 @@
-package com.example.SpringBatchTutorial.filedatareadwrite;
+package com.example.SpringBatchTutorial.job.filedatareadwrite;
 
 
 import com.example.SpringBatchTutorial.core.dto.Player;

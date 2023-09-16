@@ -1,4 +1,4 @@
-package com.example.SpringBatchTutorial.joblistener;
+package com.example.SpringBatchTutorial.job.joblistener;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
