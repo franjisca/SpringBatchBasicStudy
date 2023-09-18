@@ -1,7 +1,7 @@
 spring:
   batch:
     job:
-      name: ${job.name:dbDataJob}
+      name: ${job.name:basicJob}
       enabled: true
     jdbc:
       initialize-schema: always
